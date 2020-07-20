@@ -31,4 +31,11 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>nexuslocal</id>
+			<name>Repository</name>
+			<url>http://localhost:8081/repository/repository-test/</url>
+		</repository>
+	</distributionManagement>
 </project>
