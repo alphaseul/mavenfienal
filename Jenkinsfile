@@ -18,6 +18,11 @@ pipeline {
                 sh "mvn test"
             }
         }
+        stage('package'){
+            steps{
+                sh "mvn package"
+            }
+        }
         stage('deploy') {
             steps {
                 sh "mvn deploy"
