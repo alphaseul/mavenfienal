@@ -10,8 +10,8 @@ public class personTest {
 	public void createPerson() {
 		person person = new person();
 		person.setAge(29);
-		person.setNom("alphaSow");
-		Assertions.assertEquals("alphaSow", person.getNom());
+		person.setNom("alpha");
+		Assertions.assertEquals("alpha", person.getNom());
 	}
 	@Test 
 	public void printPerson() {
